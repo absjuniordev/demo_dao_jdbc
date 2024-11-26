@@ -16,7 +16,8 @@ public class Program {
 		Seller seller = new Seller(21, "Bob", "bob@gmail.com", new Date(), null, obj);
 		
 		SellerDao sellerDao= DaoFactory.creatSellerDao();
-		sellerDao.deleteById(null);
+		
+		
 		System.out.println(seller);
 
 	}
